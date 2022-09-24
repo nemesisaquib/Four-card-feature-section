@@ -29,9 +29,9 @@ body{
     background: var(--Very-Light-Gray);
     max-width: 100%;
      font-family: 'Poppins', sans-serif;
-    display: flex; 
+    /* display: flex; 
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 
@@ -130,6 +130,16 @@ p{
 }
 
 
+      .attribution {
+        font-size: 14px;
+        margin-top: 10rem;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+
 @media (max-width:500px) {
     .container{
         width:100%;
@@ -150,5 +160,9 @@ p{
         margin-top: 2rem;
         gap:2rem;
         
+    }
+
+    .attribution {
+        margin-top: 2rem;
     }
 }
